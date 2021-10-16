@@ -47,7 +47,6 @@ pkill -f -2 ssh > /dev/null 2>&1
 killall ssh > /dev/null 2>&1
 fi
 if [[ -e sendlink ]]; then
-rm -rf sendlink
 fi
 
 }
